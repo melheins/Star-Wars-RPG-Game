@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars Arena</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- Jumbotron for Title -->
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="text-center">Star Wars Arena</h1>
+    </div>
+</div>
+<div class="content">
+    <div id="congrats" class="container hidden">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>YOU WON</h3>
+                        <p>You have defeated all the defenders!</p>
+                        <button class="btn btn-primary btn-lg btn-restartGame">Restart Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gameover" class="container hidden">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>GAME OVER</h3>
+                        <p>You have been defeated!</p>
+                        <button class="btn btn-primary btn-lg btn-restartGame">Restart Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="charSelc" class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Pick a Character</h3>
+                    </div>
+                    <div id="charSelcCont" class="panel-body row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="arena" class="container hidden">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Arena</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="arenaCont" class="row"></div>
+                        <button class="btn btn-primary btn-lg btn-attack hidden">Attack</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="defenders" class="container hidden">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Pick a Defender</h3>
+                    </div>
+                    <div id="defenderSelCont" class="panel-body row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; Copyright 2017 Melanie Heins</p>
+    </div>
+</footer>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
