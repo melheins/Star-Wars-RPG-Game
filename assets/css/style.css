@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 .char-image {
-    width: 150px;
+    width: 120px;
     float: left;
+    margin-right: 15px;
 }
 
 .hidden {
     display: none;
+}
+
+.panel-title {
+    font-weight: bold;
+}
+
+.bg-black, .panel-default > .panel-heading.bg-black {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.button-area {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.character-details-box {
+    border: 1px solid #ddd;
+    height: 122px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+    font-family: 'Paytone One', sans-serif;
 }

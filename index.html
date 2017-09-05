@@ -14,79 +14,62 @@
 </head>
 <body>
 
-<!-- Jumbotron for Title -->
-<div class="jumbotron">
+<!-- Jumbotron Title -->
+<div class="jumbotron bg-black">
     <div class="container">
-        <h1 class="text-center">Star Wars Arena</h1>
+        <h1 class="text-center">STAR WARS ARENA</h1>
     </div>
 </div>
+
 <div class="content">
+    <!-- Congrats You win Section (conditional display) -->
     <div id="congrats" class="container hidden">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <h3>YOU WON</h3>
-                        <p>You have defeated all the defenders!</p>
-                        <button class="btn btn-primary btn-lg btn-restartGame">Restart Game</button>
-                    </div>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>YOU WON</h3>
+                <p>You have defeated all the defenders!</p>
+                <button class="btn btn-primary btn-lg btn-restartGame">Restart Game</button>
             </div>
         </div>
     </div>
+    <!-- Gameover you lose section (conditional display) -->
     <div id="gameover" class="container hidden">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <h3>GAME OVER</h3>
-                        <p>You have been defeated!</p>
-                        <button class="btn btn-primary btn-lg btn-restartGame">Restart Game</button>
-                    </div>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>GAME OVER</h3>
+                <p>You have been defeated!</p>
+                <button class="btn btn-warning btn-lg btn-restartGame">Restart Game</button>
             </div>
         </div>
     </div>
     <div id="charSelc" class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Pick a Character</h3>
-                    </div>
-                    <div id="charSelcCont" class="panel-body row">
-
-                    </div>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-heading bg-black">
+                <h3 class="panel-title">Pick a Character</h3>
+            </div>
+            <div id="charSelcCont" class="panel-body row">
             </div>
         </div>
     </div>
     <div id="arena" class="container hidden">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Arena</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div id="arenaCont" class="row"></div>
-                        <button class="btn btn-primary btn-lg btn-attack hidden">Attack</button>
-                    </div>
+        <div class="panel panel-default">
+            <div class="panel-heading bg-black">
+                <h3 class="panel-title">Arena</h3>
+            </div>
+            <div class="panel-body">
+                <div id="arenaCont" class="row"></div>
+                <div class="button-area">
+                    <button class="btn btn-warning btn-lg btn-attack hidden">Attack</button>
                 </div>
             </div>
         </div>
     </div>
     <div id="defenders" class="container hidden">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Pick a Defender</h3>
-                    </div>
-                    <div id="defenderSelCont" class="panel-body row">
-
-                    </div>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-heading bg-black">
+                <h3 class="panel-title">Pick a Defender</h3>
+            </div>
+            <div id="defenderSelCont" class="panel-body row">
             </div>
         </div>
     </div>

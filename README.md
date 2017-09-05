@@ -1,10 +1,11 @@
 # Star-Wars-RPG-Game
-A game where the user has to select a character and then used that character to defeat all the defenders
+A game where the user has to select a character and then used that character to defeat all the defenders.
+
 https://melheins.github.io/Star-Wars-RPG-Game/
 ## Game Specifications
 * There will be 4 characters to choose from
 * When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
-* The player must then defeat all of the remaining fighters. Enemies should be moved to a different area of the screen.
+* The player must then defeat all of the remaining fighters. Enemies should move to a different area of the screen.
 * The player chooses an opponent by clicking on an enemy's picture.
 * Once the player selects an opponent, that enemy is moved to the defender side of the arena.
 * The player will now be able to click the attack button.
